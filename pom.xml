@@ -215,7 +215,7 @@
       <!-- essentials -->
       <repository>
           <id>ess-repo</id>
-          <url>http://repo.ess3.net/content/groups/essentials/</url>
+          <url>http://repo.ess3.net/content/groups/essentials</url>
       </repository>
 
       <!-- Vault -->
