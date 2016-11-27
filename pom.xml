@@ -206,7 +206,10 @@
           <id>spigot-repo</id>
           <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
       </repository>
-      
+<repository>
+        <id>ess-repo</id>
+        <url>http://repo.ess3.net/content/groups/essentials</url>
+    </repository>      
       <repository>
           <id>Plugin Metrics</id>
           <url>http://repo.mcstats.org/content/repositories/public</url>
@@ -260,7 +263,6 @@
           <artifactId>Essentials</artifactId>
           <version>2.14-SNAPSHOT</version>
           <scope>system</scope>
-          <version>${project.basedir}/Essentials-2.14-SNAPSHOT.jar</version>
       </dependency>
 
       <!-- Vault -->
